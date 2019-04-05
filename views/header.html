@@ -32,7 +32,7 @@
                                 <li><a href="#"><i class="fa fa-user">Minha Conta</i></a></li>
                                 <li><a href="#"><i class="fa fa-heart">Lista de Desejos</i></a></li>
                                 <li><a href="#"><i class="fa fa-shopping-cart">Meu Carrinho</i></a></li>
-                                <li><a href="#"><i class="fa fa-lock">Login</i></a></li>
+                                <li><a href="/admin/login"><i class="fa fa-lock">Login</i></a></li>
                             </ul>
                         </div><!-- FIM DA DIV USER-MENU -->
 

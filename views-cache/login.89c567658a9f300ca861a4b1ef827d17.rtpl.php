@@ -46,7 +46,7 @@
                     <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i>Sign in Facebook</a>
                     <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i>Sign in Google+</a>
                 </div>
-                <a href="#">I forgot my password</a></br>
+                <a href="/admin/forgot">I forgot my password</a></br>
                 <a href="register.html" class="text-center">Register a new membership</a>
             </div><!-- FIM LOGIN-BOX-BODY -->
         </div><!-- FIM LOGIN-BOX -->
