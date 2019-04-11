@@ -13,6 +13,16 @@ class Products extends Model{
         
     }
     
+    public static function checkList($list){
+        foreach ($list as &$row){
+            $p = new Products();
+            $p->setData($row);
+            $row = $p->getValues();
+        }
+        return $list;
+    }
+    
+    
     public function save(){
         $sql = new Sql();
         $results = $sql->select("CALL sp_products_save(:idproduct, :desproduct, :vlprice, :vlwidth, :vlheight, :vllength, :vlweight, :desurl)", array(
