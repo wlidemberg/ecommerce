@@ -3,6 +3,7 @@
 use \Hcode\Page;
 use Hcode\Model\Products;
 use Hcode\Model\Category;
+use Hcode\Model\Cart;
 
 /***** ROTAS DA VIEW *****/
 $app->get('/', function() {
@@ -41,6 +42,12 @@ $app->get('/products/:desurl', function($desurl){
         'products' => $product->getValues(),
         'categories' => $product->getCategories()
     ));
+});
+
+$app->get('/cart', function(){
+    $cart = Cart::getFromSession();
+    $page = new Page();
+    $page->setTpl('/cart');
 });
 
 

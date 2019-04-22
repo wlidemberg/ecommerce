@@ -66,12 +66,12 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="logo">
-                            <h1><a href="#"><img src="res/site/img/logo.png"></a></h1>
+                            <h1><a href="/"><img src="res/site/img/logo.png"></a></h1>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="shopping-item">
-                            <a href="carrinho.html">Carrinho - <span class="cart-amunt">R$100</span><i class="fa fa-shopping-cart"></i><span class="product-count">5</span></a>
+                            <a href="/cart">Carrinho - <span class="cart-amunt">R$100</span><i class="fa fa-shopping-cart"></i><span class="product-count">5</span></a>
                         </div>
                     </div>
                 </div>
@@ -90,9 +90,9 @@
                     </div><!-- FIN DIV NAVBAR-HEADER -->
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">HOME</a></li>
+                            <li class="active"><a href="/">HOME</a></li>
                             <li><a href="#">PRODUTOS</a></li>
-                            <li><a href="#">CARRINHO</a></li>
+                            <li><a href="/cart">CARRINHO</a></li>
                         </ul>
                     </div>
                 </div>
